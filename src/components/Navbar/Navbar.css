@@ -1,0 +1,50 @@
+.custom-nav {
+  position: fixed;
+  min-height: 60px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.navbar-bg {
+  background-color: #1f4f16;
+}
+.nav-item-color {
+  color: #e7ffde !important;
+}
+.heading{
+  color: #fff
+}
+
+.active {
+  font-weight: bold;
+  font-size: 17px;
+}
+
+
+.nav-bar-heading {
+  font-size: 28px;
+  margin-bottom: 0px;
+}
+
+.toggle-button {
+  border-color: #e7ffde !important;
+}
+
+.hamburger {
+  width: 35px;
+  height: 3px;
+  background-color: #e7ffde;
+  margin: 6px 0;
+}
+
+@media (min-width: 500px) {
+  .nav-bar-heading {
+    font-size: 37px;
+    margin-bottom: 1px;
+  }
+  .custom-nav{
+    height: 55px;
+  }
+}

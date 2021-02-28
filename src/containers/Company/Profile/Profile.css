@@ -1,0 +1,32 @@
+.company-vacancies-container{
+    margin-top : 20px;
+    margin-bottom: 20px;
+}
+
+.sub-headings-company-profile{
+    margin-top : 20px;
+    margin-bottom : 20px;
+    color : #1f4f16;
+    font-size: 35px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.profile-spinner{
+    margin : auto;
+    margin-top : 60%;
+}
+
+.add-vac-button{
+    background-color : #1f4f16 !important;
+    color : #e7ffde !important;
+    margin-top : 5px !important;
+    margin-bottom : 20px !important;
+}
+
+@media(min-width : 500px){
+    .profile-spinner{
+        margin : auto;
+        margin-top : 20%;
+    }
+}

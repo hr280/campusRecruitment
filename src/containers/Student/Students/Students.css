@@ -1,0 +1,18 @@
+
+.stds-list-info-container {
+    margin: 0px auto 10px;
+    width: 90%;
+    position : relative;
+  }
+  
+  @media (min-width: 500px) {
+    .stds-list-info-container {
+      width: 30%;
+      display: inline-block;
+      margin-left: 1%;
+      margin-right: 1%;
+      height: 440px;
+      overflow: auto;
+      overflow-x: hidden;
+    }
+  }

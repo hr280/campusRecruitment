@@ -1,0 +1,15 @@
+.blocked-msg {
+  margin-top: 60%;
+  color: #1f4f16;
+  font-size: 30px;
+  font-weight: bold;
+  margin-left : 5%;
+  margin-right : 5%;
+}
+
+@media (min-width: 500px) {
+  .blocked-msg {
+    margin-top: 20%;
+    font-size: 45px;
+  }
+}

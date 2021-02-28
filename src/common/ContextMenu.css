@@ -1,0 +1,23 @@
+.ctxMenu {
+  background-color: #1f4f16;
+  color: #e7ffde;
+  width: 70px;
+  padding: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 5;
+}
+.ctxMenuItem {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  cursor: pointer;
+}
+.ctxMenuItemDivider {
+  background-color: #e7ffde;
+  height: 1px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.ctxMenuTrigger {
+  cursor: pointer;
+}

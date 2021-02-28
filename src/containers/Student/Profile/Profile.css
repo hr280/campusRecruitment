@@ -1,0 +1,105 @@
+.student-profile-card-container{
+    margin : auto;
+    margin-top : 20px;
+    margin-bottom : 20px;
+    width : 90%;
+    padding : 15px;
+}
+
+.main-heading-profile{
+    margin-top : 80px;
+    margin-bottom: -35px;
+    color : #1f4f16;
+    font-size: 60px;
+}
+
+.sub-headings-student-profile{
+    margin-top : 10px;
+    color : #1f4f16;
+    font-size: 35px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.info-container{
+    color : #1f4f16;
+    text-align: left;
+}
+
+.info-key{
+    font-weight: bold;
+}
+
+.cont{
+    overflow: hidden;
+}
+
+.add-eduEx-button{
+    background-color : #1f4f16 !important;
+    color : #e7ffde !important;
+    margin-top : 10px !important;
+}
+
+.student-profile-education-container{
+    margin-top : 20px;
+    margin-bottom : 20px;
+    width : 100%;
+    padding : 15px;
+}
+
+.student-profile-experience-container{
+    margin-top : 20px;
+    margin-bottom : 20px;
+    width : 100%;
+    padding : 15px;
+}
+
+
+.type-text{
+    color : #1f4f16;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.auth-button{
+    background-color : #1f4f16 !important;
+    color : #e7ffde !important;
+    margin-bottom: 10px !important; 
+}
+
+.type-para{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.td{
+    color: #1f4f16 !important;
+}
+
+@media(min-width : 500px){
+    .main-heading-profile{
+        margin-bottom: 0px;
+        font-size: 60px;
+    }
+    .sub-headings-student-profile{
+        margin-bottom: 10px;
+        font-size: 45px;
+        text-decoration: underline;
+        font-weight: bold;
+    }
+    .student-profile-card-container{
+        width: 700px;
+        margin : 0px auto;
+    }
+    .student-profile-education-container{
+        margin : auto;
+        width: 900px;
+        margin : 0px auto;
+    }
+    .student-profile-experience-container{
+        margin : auto;
+        width: 900px;
+        margin : 0px auto;
+    }
+    
+}

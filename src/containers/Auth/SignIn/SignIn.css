@@ -1,0 +1,48 @@
+.card-container{
+    margin : auto;
+    margin-top : 20px;
+    margin-bottom : 20px;
+    width : 90%;
+    padding : 15px;
+}
+
+.main-heading{
+    color : #1f4f16;
+    font-size: 40px;
+}
+
+.singin-heading{
+    color : #1f4f16;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.Error{
+    color : red;
+    font-weight: bold;
+}
+
+.auth-spinner{
+    margin-top: 150px;
+}
+
+.auth-type,.auth-type:hover, .auth-type:active{
+    color : #1f4f16;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.auth-type:hover, .auth-type:active{
+    font-size: 18px;
+}
+
+@media(min-width : 500px){
+    .card-container{
+        width: 450px;
+        margin : 70px auto;
+    }
+    .main-heading{
+        margin-bottom: 50px;
+        font-size: 60px;
+    }
+}

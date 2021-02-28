@@ -1,0 +1,41 @@
+.signup-card-container{
+    margin : auto;
+    margin-top : 20px;
+    margin-bottom : 20px;
+    width : 90%;
+    padding : 15px;
+}
+
+.main-heading-signup{
+    margin-top : -35px;
+    color : #1f4f16;
+    font-size: 40px;
+}
+
+.type-text{
+    color : #1f4f16;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.auth-button{
+    background-color : #1f4f16 !important;
+    color : #e7ffde !important;
+    margin-bottom: 10px !important; 
+}
+
+.type-para{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+@media(min-width : 500px){
+    .signup-card-container{
+        width: 450px;
+        margin : 0px auto;
+    }
+    .main-heading-signup{
+        margin-bottom: 20px;
+        font-size: 60px;
+    }
+}
